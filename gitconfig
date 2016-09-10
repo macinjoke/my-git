@@ -1,0 +1,17 @@
+[user]
+	name = Shunji Makino
+	email = shunji.makino@gmail.com
+[color]
+	ui = auto
+[core]
+    excludesfile = ~/.gitignore
+[push]
+	default = simple
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	fe = fetch
+	cmt = commit
+[credential]
+	helper = cache
