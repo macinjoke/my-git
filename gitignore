@@ -3,4 +3,6 @@
 *.idea
 .python-version
 /my_gitignored
+__pycache__/
+.DS_Store
 
