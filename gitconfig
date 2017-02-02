@@ -21,3 +21,5 @@
     sh = stash
 [credential]
 	helper = cache
+[fetch]
+	prune = true
