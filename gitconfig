@@ -18,7 +18,7 @@
 	df = diff
     rs = reset
     rb = rebase
-    sh = stash
+    sth = stash
 [credential]
 	helper = cache
 [fetch]
