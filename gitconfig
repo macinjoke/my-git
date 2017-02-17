@@ -17,8 +17,13 @@
 	pl = pull
 	df = diff
     rs = reset
+
     rb = rebase
+    rbm = rebase master
+    rbom = rebase origin/master
+
     sth = stash
+    sh = stash
 [credential]
 	helper = cache
 [fetch]
