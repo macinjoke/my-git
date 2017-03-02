@@ -9,8 +9,14 @@
 	default = simple
 [alias]
 	co = checkout
+    cobt = checkout -b tmp
+
 	st = status
+
 	br = branch
+    brdt = branch -d tmp
+    brDt = branch -D tmp
+
 	fe = fetch
 	cm = commit
 	ps = push
@@ -23,7 +29,6 @@
     rbom = rebase origin/master
 
     sth = stash
-    sh = stash
 [credential]
 	helper = cache
 [fetch]
