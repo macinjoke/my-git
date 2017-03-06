@@ -16,6 +16,7 @@
 	br = branch
     brdt = branch -d tmp
     brDt = branch -D tmp
+    brdm = !git branch -d $(git br --merged |grep -v master |grep -v '*')
 
 	fe = fetch
 	cm = commit
