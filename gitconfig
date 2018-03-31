@@ -23,6 +23,7 @@
 	ps = push
 	pl = pull
 	df = diff
+    bw = browse
     rs = reset
 
     rb = rebase
@@ -30,7 +31,13 @@
     rbom = rebase origin/master
 
     sth = stash
+    pbcopy = !printf "$1" | pbcopy
 [credential]
 	helper = cache
 [fetch]
 	prune = true
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
