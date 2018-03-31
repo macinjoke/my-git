@@ -1,29 +1,29 @@
 [user]
-	name = Shunji Makino
-	email = shunji.makino@gmail.com
+    name = Shunji Makino
+    email = shunji.makino@gmail.com
 [color]
-	ui = auto
+    ui = auto
 [core]
     excludesfile = ~/.gitignore
 [push]
-	default = simple
+    default = simple
 [alias]
-	co = checkout
+    co = checkout
     cobt = checkout -b tmp
 
-	st = status
+    st = status
 
-	br = branch
+    br = branch
     brdt = branch -d tmp
     brDt = branch -D tmp
     brdm = !git branch -d $(git br --merged |grep -v master |grep -v '*')
 
-	fe = fetch
-	cm = commit
-	ps = push
-	pl = pull
-	df = diff
     bw = browse
+    fe = fetch
+    cm = commit
+    ps = push
+    pl = pull
+    df = diff
     rs = reset
 
     rb = rebase
@@ -33,9 +33,9 @@
     sth = stash
     pbcopy = !printf "$1" | pbcopy
 [credential]
-	helper = cache
+    helper = cache
 [fetch]
-	prune = true
+    prune = true
 [filter "lfs"]
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
