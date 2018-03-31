@@ -8,7 +8,8 @@
 type following command.
 
 ```
-git clone git@github.com:tonkatu05/my-git ~/.my-git
+git clone git@github.com:makky05/my-git ~/.my-git
 ln -s ~/.my-git/gitconfig ~/.gitconfig
 ln -s ~/.my-git/gitignore ~/.gitignore
+ln -s ~/.my-git/tigrc ~/.tigrc
 ```
