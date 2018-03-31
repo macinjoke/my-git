@@ -1,0 +1,5 @@
+
+bind status D !@?git checkout HEAD -- %(file)
+
+bind main C !@git pbcopy %(commit) # depends on my gitconfig
+
