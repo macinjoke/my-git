@@ -5,11 +5,4 @@
 
 # SETUP
 
-type following command.
-
-```
-git clone git@github.com:makky05/my-git ~/.my-git
-ln -s ~/.my-git/gitconfig ~/.gitconfig
-ln -s ~/.my-git/gitignore ~/.gitignore
-ln -s ~/.my-git/tigrc ~/.tigrc
-```
+clone this repository, then run `migrate.sh`
