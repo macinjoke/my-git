@@ -31,7 +31,11 @@
     rbom = rebase origin/master
 
     sth = stash
+
     pbcopy = !printf "$1" | pbcopy
+
+    see=!hub browse -- pull/$(git symbolic-ref --short HEAD)
+
 [credential]
     helper = cache
 [fetch]
