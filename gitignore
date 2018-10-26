@@ -10,4 +10,6 @@ __pycache__/
 .rsync_excluded
 .venv
 .vscode
+.nvmrc
+.envrc
 
