@@ -1,3 +1,3 @@
-ln -s ~/.github.com/macinjoke/my-git/gitconfig ~/.gitconfig
-ln -s ~/.github.com/macinjoke/my-git/gitignore ~/.gitignore
-ln -s ~/.github.com/macinjoke/my-git/tigrc ~/.tigrc
+ln -s ~/.ghq/github.com/macinjoke/my-git/gitconfig ~/.gitconfig
+ln -s ~/.ghq/github.com/macinjoke/my-git/gitignore ~/.gitignore
+ln -s ~/.ghq/github.com/macinjoke/my-git/tigrc ~/.tigrc
