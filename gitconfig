@@ -45,3 +45,5 @@
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
+[includeIf "gitdir:~/.ghq/github.o-in.dwango.co.jp/"]
+    path=~/.gitconfig.dwango
