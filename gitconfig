@@ -5,6 +5,7 @@
     ui = auto
 [core]
     excludesfile = ~/.gitignore
+    pager = LESS=-R less
 [push]
     default = simple
 [alias]
@@ -18,7 +19,7 @@
     brDt = branch -D tmp
     brdm = !git branch -d $(git br --merged |grep -v master |grep -v '*')
 
-    bw = browse
+    bw = !hub browse
     fe = fetch
     cm = commit
     ps = push
