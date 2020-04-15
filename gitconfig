@@ -50,3 +50,5 @@
     verbose = true
 [includeIf "gitdir:~/.ghq/github.o-in.dwango.co.jp/"]
     path=~/.gitconfig.dwango
+[ghq]
+root = ~/.ghq
