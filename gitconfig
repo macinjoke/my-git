@@ -49,6 +49,6 @@
 [commit]
     verbose = true
 [includeIf "gitdir:~/.ghq/github.o-in.dwango.co.jp/"]
-    path=~/.gitconfig.dwango
+    path=~/.gitconfig_dwango
 [ghq]
 root = ~/.ghq
