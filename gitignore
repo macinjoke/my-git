@@ -9,7 +9,6 @@ __pycache__/
 .cache/
 .rsync_excluded
 .venv
-.vscode
 .nvmrc
 .envrc
 
