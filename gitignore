@@ -9,6 +9,5 @@ __pycache__/
 .cache/
 .rsync_excluded
 .venv
-.nvmrc
 .envrc
 

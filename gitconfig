@@ -18,7 +18,7 @@
     br = branch
     brdt = branch -d tmp
     brDt = branch -D tmp
-    brdm = !git branch -d $(git br --merged |grep -v master |grep -v '*')
+    brdm = !git branch -d $(git br --merged |grep -v main |grep -v '*')
 
     bw = !hub browse
     fe = fetch
@@ -29,8 +29,8 @@
     rs = reset
 
     rb = rebase
-    rbm = rebase master
-    rbom = rebase origin/master
+    rbm = rebase main
+    rbom = rebase origin/main
 
     sth = stash
 
@@ -52,4 +52,6 @@
 [includeIf "gitdir:~/.ghq/github.o-in.dwango.co.jp/"]
     path=~/.gitconfig_dwango
 [ghq]
-root = ~/.ghq
+    root = ~/.ghq
+[init]
+    defaultBranch = main
