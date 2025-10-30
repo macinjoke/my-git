@@ -9,6 +9,7 @@
     ignorecase = false
 [push]
     default = simple
+    autoSetupRemote = true
 [alias]
     co = checkout
     cobt = checkout -b tmp
@@ -31,6 +32,8 @@
     rb = rebase
     rbm = rebase main
     rbom = rebase origin/main
+    rbd = rebase develop
+    rbod = rebase origin/develop
 
     sth = stash
 
