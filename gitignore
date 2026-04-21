@@ -12,6 +12,6 @@ __pycache__/
 .rsync_excluded
 .venv
 CLAUDE.local.md
-/.claude
+.my-claude-memory
 _prompt.md
 

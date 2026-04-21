@@ -28,6 +28,7 @@
     pl = pull
     df = diff
     rs = reset
+    wt = worktree
 
     rb = rebase
     rbm = rebase main
