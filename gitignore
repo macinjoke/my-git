@@ -15,3 +15,6 @@ CLAUDE.local.md
 .my-claude-memory
 _prompt.md
 
+
+# APM dependencies
+apm_modules/
